@@ -1,0 +1,27 @@
+{
+  "name": "phonebook",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js",
+    "lint": "eslint src/main.js",
+    "test": "jest",
+    "test:browser": "majestic"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@types/jest": "^26.0.4",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.1.0",
+    "eslint": "^7.20.0",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^26.1.0",
+    "majestic": "^1.7.0"
+  },
+  "author": "Telerik Academy",
+  "dependencies": {
+    "moment": "^2.27.0"
+  }
+}
